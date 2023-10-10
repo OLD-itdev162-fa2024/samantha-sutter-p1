@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { Employee } from 'src/app/models/employee.model';
 
 @Component({
@@ -35,6 +35,6 @@ export class EmployeesListComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.employees.push()
+    
   }
 }
